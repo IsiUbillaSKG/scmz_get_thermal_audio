@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Virtual environment
+/venv/*
+__pycache__/
+*.pyc
+
+# Data directories
+/backup_files/*
+/data/*
+/inspection_files/*
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db

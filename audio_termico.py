@@ -9,9 +9,9 @@ def time_to_seconds( hour, minute, second):
     return int(hour)*3600 + int(minute)*60 + int(second)
 
 def get_thermal_audio_faults():
-    looking_folder_path = '/home/skglab/Desktop/projects/AUDIO_TERMICO/backup_files'
-    save_folder_path = '/home/skglab/Desktop/projects/AUDIO_TERMICO/inspection_files'
-    excel_path = '/home/skglab/Desktop/projects/AUDIO_TERMICO/data/Inspeccion_CT138_Izquierdo.xlsx'
+    looking_folder_path = '/Users/bob/Desktop/godelius/scmz_get_thermal_audio/backup_files'
+    save_folder_path = '/Users/bob/Desktop/godelius/scmz_get_thermal_audio/inspection_files'
+    excel_path = '/Users/bob/Desktop/godelius/scmz_get_thermal_audio/data/Inspeccion_CT32_Izquierdo.xlsx'
     buffer_time = 3 
     i = 0
 
